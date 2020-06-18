@@ -1,4 +1,5 @@
 <?php
+	//Çıkış yapılırken yapılacak işlemler.
 	session_start();
 	ob_start();
 	session_destroy();
