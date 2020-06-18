@@ -1,5 +1,5 @@
 <?php
-
+	//Silinmesi istenen mod veritabanından siliniyor.
 	include("baglanti.php");
 	
 	$silinecek=$_GET["silinen"];
