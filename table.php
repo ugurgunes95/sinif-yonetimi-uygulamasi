@@ -3,6 +3,7 @@
 	ob_start();
 	include("baglanti.php");
 	
+	//Sınıf özellikleri veritabanındaki verilerle karşılaştırıp 'var' veya 'yok' olarak gösteriliyor.
 	$durum="";
 	$durum2="";
 	
@@ -62,6 +63,7 @@
 				<td>Perşembe</td>
 				<td>Cuma</td>
 			</tr>
+	//Haftanın hangi gününde hangi saatlerde sınıfın müsait olduğu veritabanından çağrılıyor.
 			<?php
 				$sId=0;
 				while($sonucSaat=mysql_fetch_array($sorguSaat))
