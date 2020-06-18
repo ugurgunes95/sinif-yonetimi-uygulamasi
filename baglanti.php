@@ -1,4 +1,5 @@
 <?php
+	// Veri tabanı bağlantısı yapılıyor.
 	session_start();
 	ob_start();
 	$baglanti=mysql_connect("localhost","root","12345678");
