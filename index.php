@@ -17,6 +17,7 @@
 	
 	$_SESSION["binaDurumId"]=$_GET["binadrm"];
 	
+	//seçilen binanın bilgilerini getiren fonksiyon.
 	function binaDurum()
 	{
 		include("baglanti.php");
@@ -35,6 +36,7 @@
 		echo "</div>";
 	}
 	
+	//Binada bulunan sınıfların doluluk oranını, Google charts grafikleri ile gösteren fonksiyon.
 	function grafikCiz()
 	{
 		$sayac1=0;
@@ -87,6 +89,7 @@
 		echo "</script>";
 	}
 	
+	//Mod(Moderatör)'leri listeleyen fonksiyon.
 	function modlar()
 	{
 		include("baglanti.php");
