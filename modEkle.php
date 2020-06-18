@@ -1,4 +1,5 @@
 <?php
+	//Mod eklemek için gönderilen veriler kontrol edilip, mod ekleme işlemi gerçekleştiriliyor.
 
 	include("baglanti.php");
 	
